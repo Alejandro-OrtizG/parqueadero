@@ -1,7 +1,7 @@
 
 NOMBRES_TIPO = {"carro": "Carro", "moto": "Moto", "camion": "Camión"}
 
-
+# vista de consola para interactuar con el usuario
 class VistaConsola:
     def mostrar_menu_principal(self):
         print("\n=== Bienvenido al sistema de parqueadero ===")
