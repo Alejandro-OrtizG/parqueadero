@@ -1,5 +1,5 @@
 from models.vehiculos import Parqueadero
-from views.vista import VistaConsola
+from Views.vista import VistaConsola
 
 
 class ControladorParqueadero:

@@ -86,13 +86,15 @@ class VistaConsola:
             print(f"Entrada: {vehiculo.horaEntrada.strftime('%I:%M:%S %p')}")
         if vehiculo.horaSalida:
             print(f"Salida: {vehiculo.horaSalida.strftime('%I:%M:%S %p')}")
-
+            
         if vehiculo.horaEntrada and vehiculo.horaSalida:
             duracion = vehiculo.horaSalida - vehiculo.horaEntrada
             horas = duracion.total_seconds() / 3600
             print(f"Duración: {horas:.2f} horas")
-
+            
         print(f"Costo: ${costo:,}")
-
+            
     def despedida(self):
         print("Gracias por usar el parqueadero")
+
+
